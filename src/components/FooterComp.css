@@ -1,0 +1,81 @@
+.footer {
+    display: flex;
+    padding: 6.5rem;
+  }
+  
+  .footer-column {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .footer-column-1 {
+    padding-right: 80px;
+  }
+  
+  .footer-logo img {
+    width: 150px;
+  }
+  
+  .footer-text {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #2E3C43;
+
+  }
+  
+  .copy-right {
+    margin-top: 35px;
+    font-size: 0.9rem;
+    color: #64767E;
+    ;
+  }
+  
+  h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: Satoshi-var;
+    color: #2E3C43;
+  }
+  
+  h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-family: Satoshi-var;
+    color: #64767E;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #458787;
+    font-family: Satoshi-var;
+    line-height: 2.2rem;
+  }
+  
+  .app-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .download-button {
+    display: flex;
+    margin-top: 10px;
+    align-items: flex-end;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      padding: 2rem;
+    }
+
+  }

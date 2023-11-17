@@ -1,0 +1,76 @@
+.card {
+    padding: 6.5rem;
+    background: #fff;
+    padding-bottom: 0;
+}
+
+.card h1 {
+    font-size: 40px;
+    font-family: Satoshi-var;
+    color: #374151;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-size: 1.1rem;
+    font-family: Satoshi-var;
+    color: #374151;
+    margin-bottom: 1rem;
+    line-height: 1rem;
+    white-space: normal;
+    padding-bottom: 0.5rem;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+}
+
+.column img {
+    margin-bottom: 1.5rem;
+}
+
+.text-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text-column {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.text-column h5 {
+    font-size: 1.4rem;
+    font-family: Satoshi-var;
+    color: #374151;
+    margin-top: 1.2rem;
+    margin-bottom: 0.8rem;
+    line-height: 1rem;
+    white-space: normal;
+    padding-bottom: 0.5rem;
+}
+
+.text-column p {
+    font-size: 1.1rem;
+    font-family: Satoshi-var;
+    color: #374151;
+    margin-bottom: 1rem;
+    line-height: 1.7rem;
+    white-space: normal;
+    padding-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

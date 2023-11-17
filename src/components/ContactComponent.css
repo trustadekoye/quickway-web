@@ -1,0 +1,51 @@
+.contact-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 6.5rem;
+}
+
+.contact-main {
+    flex: 1;
+}
+
+.contact-flex-item h2 {
+    font-size: 3rem;
+    font-family: Nohemi;
+    color: #2E3C43;
+    padding-bottom: 3rem;
+}
+
+.socials {
+    justify-content: space-between;
+    padding-top: 2.5rem;
+}
+
+.social_icon {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social_icon svg {
+    background-color: #f5f5f5;
+    width: 30%;
+    border-radius: 40px;
+    height: auto;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.socials h3 {
+    font-size: 1.8rem;
+    font-family: Satoshi-var;
+    color: #2E3C43;
+    padding-bottom: 1.5rem;
+}
+
+.contact-flex-item p {
+    font-size: 1.8rem;
+    font-family: Satoshi-var;
+    color: #64767E;
+    line-height: 3rem;
+}

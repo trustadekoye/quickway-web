@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Satoshi-var';
+    src: url('../fonts/Satoshi-Variable.ttf') format('truetype');
+    font-style: normal;
+  
+  }
+
+.cardd {
+    padding: 6.5rem;
+    background-color: #fff;
+    padding-top: 0;
+}
+
+.cardd-body h2 {
+    font-size: 40px;
+    font-family: Satoshi-var;
+    color: #374151;
+    margin-bottom: 1rem;
+}
+
+.cardd-body p {
+    font-size: 1.1rem;
+    font-family: Satoshi-var;
+    color: #6B7280;
+    margin-bottom: 1rem;
+    line-height: 1rem;
+    white-space: normal;
+    padding-bottom: 0.5rem;
+}

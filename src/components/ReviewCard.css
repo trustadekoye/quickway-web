@@ -1,0 +1,81 @@
+
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.heading h2 {
+    font-size: 40px;
+    font-family: Satoshi-var;
+    color: #374151;
+    margin-bottom: 1rem;
+}
+
+.heading p {
+    font-size: 1.1rem;
+    font-family: Satoshi-var;
+    color: #6B7280;
+    line-height: 1rem;
+    white-space: normal;
+    padding-bottom: 0.5rem;
+}
+
+.review {
+    width: 80%;
+}
+
+.reviewss {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    padding-top: 0;
+    padding: 6.5rem;
+}
+
+.review-info {
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.review-info-card {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.review-text {
+    font-size: 1.1rem;
+    font-family: Satoshi-var;
+    color: #374151;
+    margin-bottom: 1rem;
+    line-height: 1.7rem;
+    white-space: normal;
+    padding-bottom: 0.5rem;
+}
+
+.review-name{
+    font-size: 1.1rem;
+    font-family: Satoshi-var;
+    font-weight: 500;
+    color: #374151;
+
+}
+
+.review:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease-in-out;
+}
+
+.star-icon {
+    color: #5caaaa;
+}

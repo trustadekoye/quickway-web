@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Satoshi-var';
+    src: url('../fonts/Satoshi-Variable.ttf') format('truetype');
+    font-style: normal;
+  
+  }
+  
+  .card-2 {
+    padding: 6.5rem;
+    background-color: #fff;
+  }
+
+.card-2 h1 {
+    font-size: 40px;
+    font-family: Satoshi-var;
+    color: #374151;
+    margin-bottom: 1rem;
+}
+
+.card-2 p {
+    font-size: 1.1rem;
+    font-family: Satoshi-var;
+    color: #6B7280;
+    margin-bottom: 1rem;
+    line-height: 1rem;
+    white-space: normal;
+    padding-bottom: 0.5rem;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-flex {
+    width: 80%;
+}
+
+.column-2 h2 {
+    font-size: 1.4rem;
+    font-family: Satoshi-var;
+    color: #374151;
+    margin-top: 1.2rem;
+    margin-bottom: 0.8rem;
+    line-height: 1rem;
+    white-space: normal;
+}
+
+.column-2 p {
+    font-family: Satoshi-var;
+    color: #6B7280;
+    max-width: 58%;
+    word-wrap: break-word;
+    line-height: 1.5rem;
+}
+
+.column-3 img {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.number-box {
+    background-color: #458787;
+    color: #fff;
+    border-radius: 25%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .card-flex {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .card-2-body > h1 {
+        font-size: 40px;
+        width: 120%;
+    }
+  
+    .text-flex {
+      width: 110%;
+    }
+  
+    .column-3 {
+      width: 100%; 
+    }
+
+    .column-3 img {
+        width: 100%;
+    }
+    
+  }
