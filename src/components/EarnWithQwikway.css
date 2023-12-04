@@ -79,7 +79,14 @@
     flex-direction: column;
 }
 
+.card-2-body > img {
+    display: none;
+}
+
 @media (max-width: 768px) {
+    .card-2 {
+        margin-left: -70px;
+    }
     .card-flex {
       flex-direction: column;
       justify-content: space-between;
@@ -90,11 +97,20 @@
         font-size: 40px;
         width: 120%;
     }
-  
-    .text-flex {
-      width: 110%;
+
+    .card-2-body > img {
+        display: flex;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .column-3 > img {
+        display: none;
     }
   
+    .text-flex {
+      width: 210%;
+    }
     .column-3 {
       width: 100%; 
     }

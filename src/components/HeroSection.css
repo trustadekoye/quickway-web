@@ -47,6 +47,11 @@ margin-bottom: 0.5rem;
     padding-top: 0.2rem;
 }
 
+.hero-paragraph {
+    width: 40%;
+    font-family: Satoshi-var;
+}
+
 .hero-container p {
 font-size: 1.3rem;
 font-family: Satoshi-var;
@@ -67,15 +72,15 @@ line-height: 2.2rem;
     }
 
     .hero-container > img {
-        padding-top: 400px;
+        padding-top: 100px;
         z-index: -1;
-        max-width: 100%;
+        width: 100%;
     }
 
 .hero-container h1 {
     font-size: 3rem;
     margin-top: 1.5rem;
-    margin-left: -80px;
+    margin-left: -70px;
 }
 
 .hero-container > p {
@@ -83,20 +88,21 @@ line-height: 2.2rem;
     margin-bottom: 1rem;
     margin-left: -80px;
     line-height: 2rem;
-    white-space: normal;
+    white-space: wrap;
+    width: 100%;
 }
 
 .button-container {
     order: 2;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .button-container > button {
     margin-bottom: 1rem;
-    width: 300%;
+    width: 200%;
     margin-left: -80px;
 }
-
 }
 

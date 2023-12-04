@@ -5,6 +5,9 @@
 
 }
 
+.mobile > img {
+    display: none;
+}
 .get-app {
     display: flex;
     padding: 6.5rem;
@@ -61,16 +64,21 @@
 
     @media (max-width: 768px) {
         .get-app {
-            width: 100%;
+            display: none;
         }
 
         .get-app-body img {
-            width: 100%;
+            display: none;
+
         }
 
         .overlay-content > h2 {
             font-size: 1.5rem;
             width: 100%;
+        }
+
+        .mobile > img {
+            display: flex;
         }
         
     }

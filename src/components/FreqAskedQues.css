@@ -81,14 +81,25 @@
       flex-direction: column;
     }
 
+    .faq-list {
+      width: 100%;
+      margin-left: -100px;
+    }
+
     .faq-text {
       padding: 0;
-      margin-left: 0;
+      margin-left: -70px;
       width: auto;
     }
     
     .question {
-      width: 150%;
+      width: 500%;
+      padding: 10px;
+      margin-left: -180px;
+    }
+    .answer {
+      width: 500%;
       padding: 0;
+      margin-left: -180px;
     }
   }

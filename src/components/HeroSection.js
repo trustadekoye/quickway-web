@@ -24,9 +24,7 @@ function HeroSection() {
                 <br className='text-2' />
                 <span style={{ color: '#458787' }}> Package Delivery</span>
             </h1>
-            <p>Deliver packages without breaking a sweat.
-                <br /> Don't add worrying about dispatch riders to your to-do list. We take
-                <br /> care of every details from pick up to drop off so you don't have to.
+            <p className='hero-paragraph'>Deliver packages without breaking a sweat. Don't add worrying about dispatch riders to your to-do list. We take care of every details from pick up to drop off so you don't have to.
             </p>
             <div className='hero-btns'>
                 <div className='button-container'>

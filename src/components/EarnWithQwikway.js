@@ -10,6 +10,7 @@ function EarnWithQwikway() {
       <div className='card-2-body'>
         <h1>Earn With Qwikway</h1>
         <p>Got a bike? Make money delivering packages as one of our courier</p>
+        <img src='images/earn-with-qwikway.png' alt='earn' />
       </div>
       <div className='card-flex'>
         <div className='text-flex'>

@@ -13,6 +13,9 @@ function GetTheApp() {
                 <img src="images/Button.png" alt="download" />
                 <img src="images/Button2.png" alt="download" />
           </div>
+          <div className='mobile'>
+            <img src='images/phones-img.png' alt='' />
+          </div>
         </div>
       </div>
     </div>
